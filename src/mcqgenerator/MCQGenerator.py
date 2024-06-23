@@ -75,7 +75,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 
 load_dotenv()
-key = os.getenv("sk-proj-wRV7fyoH4C7NObGMBlyuT3BlbkFJSoElQ13bRUvMVZe6H6Ql")
+key = os.getenv("OPEN_API_KEY")
 
 llm = ChatOpenAI(openai_api_key=key, model_name="gpt-3.5-turbo", temperature=0.7)
 
