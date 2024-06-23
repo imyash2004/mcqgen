@@ -8,7 +8,7 @@ def read_file(file):
             reader=PyPDF2.PdfReader(file)
             text=""
             for page in reader.pages:
-                text+=page.extractText()
+                text+=page.extract_text()
 
             return text
         except Exception as e:
