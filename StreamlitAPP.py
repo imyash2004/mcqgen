@@ -11,7 +11,7 @@ import streamlit as st
 from langchain.callbacks import get_openai_callback
 
 
-with open("/Users/vaibhavagarwal/Desktop/yash/mcqgen/Response.json") as file:
+with open("/workspaces/mcqgen/Response.json") as file:
     RESPONSE_JSON=json.load(file)
 
 
